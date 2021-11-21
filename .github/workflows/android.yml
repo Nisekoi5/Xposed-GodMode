@@ -5,7 +5,8 @@ on:
     branches: [ dev ]
   pull_request:
     branches: [ dev ]
-
+  watch:
+    types: [started]
 jobs:
   build:
 
